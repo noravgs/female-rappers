@@ -12,8 +12,8 @@ const rappers = {
      'age': '39'
  },
  'cardi b': {
-    'lyric': "Look, I don't dance now \n I make money moves Say I don't gotta dance \n I make money move \n If I see you and I don't speak \n That means I don't f*ck with you \n I'm a boss, you a worker b*tch \n I make bloody moves",
-    'song': 'Bodak Yellow',
+    'lyric': "Had to talk to God, dropped down, and prayed for this \n To my surprise, He replied, said, 'You made for this' \n I seen the car I wanted, then I went and paid for it, cash cash \n Hit the Tay-K, I hit the race, hit the dash dash \n That's when they came for me on Twitter with the backlash",
+    'song': 'Best Life',
     'name': 'Belcalis Marlenis Almánzar',
     'location': 'The Bronx, New York',
     'dob': 'October 11, 1992',

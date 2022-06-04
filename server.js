@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+
+app.use(cors())
+
 
 const rappers = {
  'nicki minaj':{
@@ -171,6 +175,14 @@ const rappers = {
     'dob': 'March 18, 1970',
     'age': '52',
 },
+'unknown':{
+    'lyric': "unknown",
+    'song':'unknown',
+    'name': 'unknown',
+    'location': 'unknown',
+    'dob': 'unknown',
+    'age': 'unknown',
+},
 }
  
 
@@ -181,7 +193,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/:name', (request, response) => {
-   const rapperName = request.params.name.toLocaleLowerCase()
+   const rapperName = request.params.name.toLowerCase()
    if( rappers[rapperName] ){
     response.json(rappers[rapperName])
    }else{

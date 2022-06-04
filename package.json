@@ -1,14 +1,24 @@
 {
-  "name": "fem-rappers-api",
+  "name": "female-rappers",
   "version": "1.0.0",
-  "description": "",
+  "description": "female rappers api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Ar'Niqua Coleman, Nora Vargas",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noravgs/female-rappers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noravgs/female-rappers/issues"
+  },
+  "homepage": "https://github.com/noravgs/female-rappers#readme"
 }

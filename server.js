@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const PORT = 'https://female-rap-api.herokuapp.com/'
+const PORT = 8000
 
 app.use(cors())
 
@@ -202,6 +202,6 @@ app.get('/api/:name', (request, response) => {
    
 })
 
-app.listen(PORT , () => {
+app.listen(process.env.PORT || PORT , () => {
    console.log(`The server is now running on port ${PORT}! Betta Go Catch it!`)
 })
